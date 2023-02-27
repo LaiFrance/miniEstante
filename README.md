@@ -84,8 +84,7 @@ cd miniEstante
 ## 📌  Sobre o desenvolvimento
 
  Foram x dias de desenvolvimento <br>
-   O desenvolvimento do projeto em grupo foi bem sucedido devido às ferramentas e recursos disponíveis para a nossa utilização. Utilizamos a plataforma de gerenciamento de projetos TRELLO para rastrear o progresso do projeto.<br>
-   Esta plataforma não só nos permitiu monitorar o progresso da equipe, mas também ajudou a criar um ambiente de colaboração entre todos. Além disso, nos reunimos regularmente pelo Discord para compartilhar ideias e discutir possíveis melhorias.<br>
+   O desenvolvimento do projeto em grupo foi bem sucedido devido às ferramentas e recursos disponíveis para a nossa utilização. Nos reunimos regularmente pelo Discord para compartilhar ideias e discutir possíveis melhorias.<br>
    Estamos trabalhando para no futuro implementar melhorias significativas, como a criação de um banco de dados  para facilitar as funcionalidades . Além disso, estamos nos esforçando para tornar nosso sistema mais seguro e escalável para que possamos atender às necessidades dos usuários.<br>
 Todos os membros do grupo trabalharam diligentemente para criar um projeto funcional em Java. Cada membro contribuiu de alguma forma, desde a codificação  até a documentação do projeto.<br>
 Todos os membros da equipe contribuíram para o sucesso do projeto, e todos merecem muito crédito pela conclusão do projeto.

@@ -15,31 +15,21 @@ Projeto desenvolvido durante o curso da Generation Brasil<br>
 Desenvolvimento de projeto feito pelo Grupo 4 <br>
 Projeto Java para conclusão do Bloco I do curso da Generation Brasil - Pessoa Desenvolvedora Java <br>
 <br>
-Essa aplicação simula uma biblioteca virtual na qual há 2 perfis de acesso : 
- - Usuário
- - Administrador do sistema 
-
+Essa aplicação simula uma biblioteca virtual na qual há um perfil de acesso  
+ 
 ## Funcionalidades 💻
 🙍 O Usuário é capaz de :
-- [x] fazer login
-- [x] cadastrar
-- [x] entrar na sua homePage
-- [x] ver os livros disponíveis
-- [x] buscar livro 
-- [x] devolver o livro
-- [x] trocar o livro 
-
-👨‍💻 o Administrador do sistema é capaz de :
-- [x] fazer o login como administrador
-- [x] cadastrar usuário
-- [x] excluir usuário
-- [x] ver lista de todos os usuários cadastrados
-- [x] buscar livro 
-- [x] ver os livros 
-- [x] devolver livros 
-- [x] trocar livros 
-
-
+- [x] Cadastrar Cliente
+- [x] Listar Clientes
+- [x] Atualizar Cadastro
+- [x] Excluir Cadastro
+- [x] Cadastrar Livro
+- [x] Listar Livros
+- [x] Atualizar Livro
+- [x] Excluir Livro
+- [x] Alugar Livro
+- [x] Listar Livros Alugados
+- [x] Sair
 
 ## Stack utilizada
 

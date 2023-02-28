@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import miniEstante.model.Livro;
 import miniEstante.repository.LivroRepository;
 
-public class LivroController implements LivroRepository{
-	
-	private ArrayList<Livro>listaLivro = new ArrayList<Livro>();
-	
-	int numero = 0;
+public class LivroController implements LivroRepository {
+
+	private ArrayList<Livro> listaLivro = new ArrayList<Livro>();
+
+	int idLivro = 0;
 
 	@Override
 	public void cadastrar(Livro livro) {
@@ -19,22 +19,22 @@ public class LivroController implements LivroRepository{
 
 	@Override
 	public void atualizar(Livro livro) {
-		var procurarLivro = buscarLivroNaCollectio(livro.getNumero());
-		if (livro != null) {
+		var procurarLivro = buscarLivroNaCollectio(livro.getIdLivro());
+		if (procurarLivro != null) {
 			listaLivro.set(listaLivro.indexOf(procurarLivro), livro);
-			System.out.println("O livro foi encontrado");
-		}else
-			System.out.println("O livro não foi encontrado");
+			System.out.println("O Livro foi atualizado");
+		} else
+			System.out.println("O Livro não foi encontrado");
 	}
 
 	@Override
-	public void procurarLivro(int id) {
-		var livro = buscarLivroNaCollectio(id);
-		
+	public void procurarLivro(int idLivro) {
+		var livro = buscarLivroNaCollectio(idLivro);
+
 		if (livro != null)
 			livro.visualizar();
 		else
-			System.out.println("O livro " + id + " Não foi encontrado");
+			System.out.println("O Livro " + idLivro + " Não foi encontrado");
 	}
 
 	@Override
@@ -42,29 +42,30 @@ public class LivroController implements LivroRepository{
 		for (var livro : listaLivro) {
 			livro.visualizar();
 		}
-		
+
 	}
 
 	@Override
-	public void deletarLivro(int id) {
-		var livro = buscarLivroNaCollectio(id);
-		
+	public void deletarLivro(int idLivro) {
+		var livro = buscarLivroNaCollectio(idLivro);
+
 		if (livro != null) {
-			if(listaLivro.remove(livro) == true)
+			if (listaLivro.remove(livro) == true)
 				System.out.println("O livro " + livro + " Foi excluido");
-		}else
-		System.out.println("O livro " + livro + " Não foi encontrado!");
+		} else
+			System.out.println("O livro " + livro + " Não foi encontrado!");
 	}
-	
-	public Livro buscarLivroNaCollectio(int numero) {
+
+	public Livro buscarLivroNaCollectio(int idLivro) {
 		for (var livro : listaLivro) {
-			if (livro.getNumero() == numero)
+			if (livro.getIdLivro() == idLivro)
 				return livro;
 		}
 		return null;
 	}
-	public int gerarNumero() {
-			return ++numero;
-		}
+
+	public int gerarIdLivro() {
+		return ++idLivro;
+	}
 
 }

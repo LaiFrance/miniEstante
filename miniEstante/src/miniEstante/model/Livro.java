@@ -2,27 +2,27 @@ package miniEstante.model;
 
 public class Livro {
 
-	private int numero;
+	private int idLivro;
 	private String titulo;
 	private String autor;
 	private int ano;
 	private int alugado;
-	
-	public Livro(int numero, String titulo, String autor, int ano, int alugado) {
+
+	public Livro(int idLivro, String titulo, String autor, int ano, int alugado) {
 		super();
-		this.numero = numero;
+		this.idLivro = idLivro;
 		this.titulo = titulo;
 		this.autor = autor;
 		this.ano = ano;
 		this.alugado = alugado;
 	}
 
-	public int getNumero() {
-		return numero;
+	public int getIdLivro() {
+		return idLivro;
 	}
 
-	public void setNumero(int numero) {
-		this.numero = numero;
+	public void setIdLivro(int idLivro) {
+		this.idLivro = idLivro;
 	}
 
 	public String getTitulo() {
@@ -56,16 +56,17 @@ public class Livro {
 	public void setAlugado(int alugado) {
 		this.alugado = alugado;
 	}
-	
-	
+
 	public void visualizar() {
-		String opcao2 ="";
+		String opcao2 = "";
 		switch (this.alugado) {
 		case 1 -> opcao2 = "Alugado";
 		case 2 -> opcao2 = "Disponível";
 		}
-		System.out.println("===============================================");
-		System.out.println("Numero do livro: " + this.numero);
+		System.out.println("==================================================");
+		System.out.println("================DADOS DO LIVRO====================");
+		System.out.println("==================================================");
+		System.out.println("Id do livro: " + this.idLivro);
 		System.out.println("Titulo do livro: " + this.titulo);
 		System.out.println("Autor do livro: " + this.autor);
 		System.out.println("Ano do livro: " + this.ano);

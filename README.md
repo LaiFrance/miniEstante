@@ -74,11 +74,11 @@ cd miniEstante
 5. Clique em **"Directory" e selecione a pasta do projeto clonado.**
 6. Clique em **"Finish" e o projeto será aberto no Eclipse.**
 
-
-
-## Screenshots
-
 ## Demonstração
+
+
+https://user-images.githubusercontent.com/91226847/221784045-2eaf3d50-7238-4f4d-a1f1-1dd8b4f20c07.mp4
+
 
 
 ## 📌  Sobre o desenvolvimento
@@ -91,7 +91,12 @@ Todos os membros da equipe contribuíram para o sucesso do projeto, e todos mere
 
 
 ## Pontos de melhoria
-
+- Adicionar integração com  banco de dados
+- Adicionar novas funcionalidade
+- Fazer o Front-end do projeto 
+- Integração com API
+- Adicionar documentação
+- Adicionar rotas e Testes 
 
 ---
 ## Desenvolvido por:
@@ -158,8 +163,6 @@ Todos os membros da equipe contribuíram para o sucesso do projeto, e todos mere
   </tr>
 </table>
 </div>
-
-## Agradecimentos
 
 ## Contribuindo
 

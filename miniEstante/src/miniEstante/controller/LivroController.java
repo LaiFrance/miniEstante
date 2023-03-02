@@ -51,9 +51,9 @@ public class LivroController implements LivroRepository {
 
 		if (livro != null) {
 			if (listaLivro.remove(livro) == true)
-				System.out.println("O livro " + livro + " Foi excluido");
+				System.out.println("O livro foi excluido");
 		} else
-			System.out.println("O livro " + livro + " Não foi encontrado!");
+			System.out.println("O livro não foi encontrado!");
 	}
 
 	public Livro buscarLivroNaCollectio(int idLivro) {

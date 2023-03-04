@@ -29,6 +29,8 @@ Essa aplicação simula uma biblioteca virtual na qual há um perfil de acesso
 - [x] Excluir Livro
 - [x] Alugar Livro
 - [x] Listar Livros Alugados
+- [x] Renovar Empréstimo
+- [x] Registrar Devolução
 - [x] Sair
 
 ## Stack utilizada
